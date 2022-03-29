@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(240, 238, 238);
+}
+
+
+
+
+/* Resolucion para pc */
+
+@media(min-width: 992px){
+    .nav-aidel{
+        margin-top: 20px;
+        padding: 20px 0;
+    }
+    .logo {
+        margin-left: 80px;
+    }
+    
+    .formulario {
+        width: 470px;
+        height: 45px;
+        border-radius: 5px 0px 0px 5px;
+      }
+      
+      .formulario-entero {
+          margin: 0 60px;
+      }
+    
+     .boton-buscar {
+          margin-left: -9px;
+          width: 100px;
+          height: 45px;
+          border-radius: 0px 5px 5px 0px;
+      }
+    
+      .botones {
+    margin-top: 10px;
+      }
+    .botones-menu1 {
+     padding: 0 9px;
+      }
+    
+    .botones-menu2 {
+        padding: 0 9px;
+         }
+    
+     .botones-menu3 {
+            padding: 0 9px;
+             }
+    
+    .iniciar {
+        margin-left: -15px;
+        margin-top: -2px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+     color: black !important ;
+    }
+    
+    .registrar {
+        margin-left: -15px;
+        margin-top: -22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    
+    .buscar {
+        font-weight: bold;
+    }
+    }
+    /* Resolucion para tablets */
+    
+    @media(min-width: 768px) and (max-width: 991px) {
+     
+     
+    }
+    
+    /* Resolucion para moviles */
+    
+    @media(min-width: 576px) and (max-width: 767px) {
+     
+       
+        }
+    
+        
+    /* Resolucion para moviles muy pequeños */
+    
+    @media(max-width: 575px) {
+    
+    }
